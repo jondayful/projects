@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Proposal</title>
+</head>
+<body>
+    <h1 style="color: orange;">How can we help?</h1>
+    <form>
+        <fieldset>
+            <legend style="color: blue;">Request for Proposal</legend>
+            <table border="0" cellpadding="3%">
+                <tr>
+                    <td>
+                        <label for="name">Your Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="username">Username:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="business">Your Business:</label>
+                    </td>
+                    <td>
+                        <textarea cols="30" rows="10">
+                            Briefly describe your business here.
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="size">Company Size:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="tiny" name="size">Less Than 10
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <input type="radio" id="small" name="size">11 to 50
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <input type="radio" id="medium" name="size">50 to 200
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <input type="radio" id="large" name="size">Over 200
+                    </td>
+                </tr>
+                    <td>
+                        <label for="service">Service:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="brand" id="option1"> Brand Identity
+                        <input type="checkbox" name="website" id="option2"> New Website
+                        <input type="checkbox" name="redesign" id="option3"> Web Redesigner
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="timeline">Timeline:</label>
+                    </td>
+                    <td>
+                        <select id="timeline">
+                            <option value="immediately">Immediately</option>
+                            <option value="1-2weeks">1-2 weeks</option>
+                            <option value="3-6weeks">3-6 weeks</option>
+                            <option value="7-2months">7-2 months</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <button type="submit" onclick="window.open('https://sites.google.com/view/jondayful/projects')">Send to dev\design</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
