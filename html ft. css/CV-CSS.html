@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 100px;
+      padding: 0;
+    }
+
+    #information h2,
+    b {
+      color: #3366cc
+    }
+
+    #information {
+      text-align: center;
+
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #3366cc;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav a:hover {
+      background-color: #1a4b8d;
+    }
+
+    .nav a.active {
+      background-color: #1a4b8d;
+    }
+
+    #form {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #form p {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    #form a {
+      color: #1a4b8d;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    #form a:hover {
+      color: #3366cc;
+    }
+
+    h2 {
+      color: #3366cc;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    #obj,
+    #educ,
+    #work-exp,
+    #hw-skills,
+    #sw-skills,
+    #add-skills {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+
+    #add-skills p {
+      column-count: 2;
+      column-gap: 20px;
+    }
+
+    #hw-skills,
+    #sw-skills,
+    #add-skills {
+      column-count: 2;
+      column-gap: 20px;
+    }
+
+    #char-ref {
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+      padding: 20px;
+    }
+
+    #char-ref b {
+      color: #3366cc;
+      font-size: 1.5rem;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3366cc;
+      color: #fff;
+    }
+
+    tr:hover {
+      background-color: #e5e5e5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <a href="#information">Summary</a>
+    <a href="#educ">Education</a>
+    <a href="#work-exp">Experience</a>
+    <a href="#hw-skills">Hardware Skills</a>
+    <a href="#sw-skills">Software Skills</a>
+  </div>
+  <img src="https://media.discordapp.net/attachments/1206214260238061650/1213851833379065966/IMG_20240220_173920_428.jpg?ex=65f6fa9d&is=65e4859d&hm=fa223527d6a10e3c6e4387f339547a77eb59c37071b9dc810eed19811cb38f16&=&format=webp&width=473&height=473" width="200px" height="200px" style="display: block; margin: 0 auto; margin-top: 10px; border: 2px solid #333;">
+  <div id="information">
+    <h2>Jonas James, Fulgencio D.</h2>
+    <b>Email: </b><a href="mailto:jondayful@gmail.com">jondayful@gmail.com</a><br>
+    <b>Phone: </b>0955-520-8127<br>
+    <b>Address: </b>Sta. Lucia Resettlement, Magalang, Pampanga<br>
+    <b>Github: </b><a href="https://www.github.com/jondayful">https://www.github.com/jondayful</a><br>
+    <hr>
+  </div>
+  <div id="obj">
+    <b>Career Objective</b>
+    <p>Looking for an opportunity to contribute my knowledge and perspective to a dynamic team.</p>
+  </div>
+  <div id="educ">
+    <b>Education</b>
+    <p>College: Bachelor of Science in Information Technology<br>
+      Pampanga State Agricultural University<br>
+      Magalang, Pampanga<br>
+      2023-2027
+    </p>
+    <p>Senior High School: Information Communication and Technology<br>
+      Tinajero National High School Annex<br>
+      Magalang, Pampanga<br>
+      2021-2023
+    </p>
+    <p>Junior High School: Tinajero National High School Annex<br>
+      Magalang, Pampanga<br>
+      2017-2021
+    </p>
+    <p>Elementary: Eliseo-Belen Elementary School<br>
+      Magalang, Pampanga<br>
+      2011-2017
+    </p>
+  </div>
+  <div id="work-exp">
+    <b>Work Experience or Seminars and Workshop Attended</b>
+    <p>Remotask, San Francisco, Freelancer<br>
+    <ul>
+      <li>Image Analysis: Draw boxes around various objects in images to help AI identify and categorize objects in
+        different locations.</li>
+      <li>Categorization: Identify keywords that describe the content in texts and images. This helps improve AI’s
+        understanding of different concepts.</li>
+      <li>Transcription: Transcribe content from text-based materials, including menus, signs, and documents.</li>
+    </ul>
+    </p>
+  </div>
+  <div id="hw-skills">
+    <b>Hardware Skills</b>
+    <p>Assembling and Disassembling Computer System, Configuring Network, Configuring Server, Formatting Computers and
+      Cellphones</p>
+  </div>
+  <div id="sw-skills">
+    <b>Software Skills</b>
+    <p>HTML, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Photoshop, Adobe Premier, Adobe Lightroom,
+      Adobe Effects, Windows, Visual Code Studio</p>
+  </div>
+  <div id="add-skills">
+    <b>Additional Skills</b>
+    <p>Adaptability<br>
+      Organizational Skills<br>
+      Time Management<br>
+      Critical Thinking<br>
+      Problem Solving<br>
+      Teamwork<br>
+      Communication Skills<br>
+      Leadership Skills<br>
+      Creativity<br>
+      Flexibility<br>
+      Patience<br>
+      Persuasion<br>
+      Willingness to Learn<br>
+      Self-Motivation<br>
+      Conflict Resolution<br>
+      Decision Making<br>
+    </p>
+  </div>
+  <div id="char-ref">
+    <b>Character References</b>
+    <table border="1" cellpadding="5">
+      <tr>
+        <th>Full Name</th>
+        <th>Designation</th>
+        <th>Email</th>
+        <th>Contact Number</th>
+      </tr>
+      <tr>
+        <td>Mark Ian Tolentino</td>
+        <td>Coworker</td>
+        <td>markiantolentino@gmail.com</td>
+        <td>0968-410-5704</td>
+      </tr>
+      <tr>
+        <td>Neihl Pineda</td>
+        <td>Coworker</td>
+        <td>neihlpineda@gmail.com</td>
+        <td>0912-969-6912</td>
+      </tr>
+    </table>
+  </div>
+  <footer id="form">
+    <p>
+      I hereby certify that the information provided in this form is complete, true, and correct to the best of my
+      knowledge.
+    </p>
+    <a href="#top">Back to Top</a>
+  </footer>
+</body>
+
+</html>
