@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box input {
+            display: block;
+        }
+
+        .par-2btn {
+            display: flex;
+            text-align: center;
+        }
+
+        .par-2btn button {
+            margin: 2px;
+        }
+
+        .google {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .google img {
+            width: 200px;
+        }
+
+        #sform {
+            display: flex;
+            max-width: 600px;
+            width: 100%;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            overflow: hidden;
+        }
+
+        #search {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        .signup {
+            max-width: 300px;
+            width: 100%;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .signup input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid grey;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .signup .fl-name {
+            display: flex;
+            gap: 5px;
+        }
+
+        .signup button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #3874e9;
+            color: white;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .pdInfo input {
+            max-width: 300px;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 5px;
+            margin-right: 50px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(236, 234, 234);
+            box-sizing: border-box;
+            display: block;
+        }
+
+        .reqsub #req {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .reqsub #sub {
+            background-color: rgb(236, 234, 234);
+            color: black;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .uber h1 {
+            font-weight: 500;
+        }
+
+        .uber {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form class="box">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="text" name="email" id="email" placeholder="Email">
+    </form>
+    <hr>
+    <div class="par-2btn">
+        <p>Thanks for chatting with our customer support. Would you like to take our quick survey? </p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <hr>
+    <div class="google">
+        <img
+            src="https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg">
+        <form id="sform">
+            <input id="search" type="text" placeholder="Search Google or type a URL">
+        </form>
+    </div>
+    <hr>
+    <div class="signup">
+        <form id="signup-form">
+            <div class="fl-name">
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="email" placeholder="Email" required>
+            <button id="signup-btn" type="submit">Sign Up</button>
+        </form>
+    </div>
+    <hr>
+    <div class="uber">
+        <h1>Request a ride now</h1>
+        <div class="pdInfo">
+            <input type="text" name="pickup" placeholder="Enter pickup location">
+            <input type="text" name="destination" placeholder="Enter destination">
+        </div>
+        <div class="reqsub">
+            <button id="req">Request now</button>
+            <button id="sub">Schedule for later</button>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
