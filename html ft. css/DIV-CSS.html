@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: darkgreen;
+            border-radius: 50%;
+        }
+
+        .service {
+            border: 1px solid black;
+            display: inline-block;
+            padding-right: 30px;
+            padding-left: 15px;
+            padding-bottom: 20px;
+        }
+
+        .ytmusic {
+            max-width: 350px;
+            width: 100%;
+            background-color: rgba(33, 33, 33, 255);
+            box-shadow: 0 0 5px rgba(51, 51, 51, 255);
+            padding: 2px;
+        }
+
+        #music {
+            color: white;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+
+        #infoMusic {
+            color: rgba(138, 138, 138, 255);
+            margin-left: 10px;
+        }
+
+        .facebook {
+            display: inline-flex;
+            align-items: flex-start;
+            background-color: white;
+            padding: 10px;
+            gap: 10px;
+            box-shadow: 0 0 5px rgba(229, 229, 229, 255);
+        }
+
+        .pfp img {
+            width: 200px;
+            height: 200px;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            display: block;
+
+        }
+
+        .fbinfo {
+            border-top: none;
+            border-left: 1px solid rgba(229, 229, 229, 255);
+            border-right: 1px solid rgba(229, 229, 229, 255);
+            border-bottom: 1px solid rgba(229, 229, 229, 255);
+            border-bottom-left-radius: 5%;
+            border-bottom-right-radius: 5%;
+            padding: 10px;
+            height: 100px;
+            box-shadow: 0 0 5px rgba(229, 229, 229, 255);
+        }
+
+        .fbinfo b {
+            font-size: 20px;
+        }
+
+        .fbinfo p {
+            font-size: 15px;
+            color: rgba(128, 128, 128, 255);
+        }
+
+        .fbinfo button {
+            padding: 8px;
+            border: none;
+            background-color: rgba(50, 120, 228, 255);
+            color: white;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .google {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .google img {
+            width: 200px;
+        }
+
+        #sform {
+            display: flex;
+            max-width: 600px;
+            width: 100%;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            overflow: hidden;
+        }
+
+        #search {
+            flex: 1;
+            padding: 14px;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        .gsearch button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgba(245, 245, 245, 255);
+            color: black;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="square">
+    </div>
+    <hr>
+    <div class="circle">
+    </div>
+    <hr>
+    <div class="service">
+        <p>Satisfied with our service?</p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <hr>
+    <div class="ytmusic">
+        <p id="music">Install Youtube Music</p>
+        <p id="infoMusic">Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+    <hr>
+    <div class="facebook">
+        <div class="pfp">
+            <img src="../cat.jpg" alt="Cat Profile">
+
+            <div class="fbinfo">
+                <b>Oliver</b>
+                <p>2 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="facebook">
+        <div class="pfp">
+            <img src="https://media.discordapp.net/attachments/1206214260238061650/1214976889245007942/cat.jpg?ex=65fb1267&is=65e89d67&hm=a3e85f487e4308c60b23af3d3e20968242ff0215b9d786ae3ce79d31fa147ea0&=&format=webp"
+                alt="Cat Profile">
+
+            <div class="fbinfo">
+                <b>Kippy</b>
+                <p>2 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+        <div class="pfp">
+            <img src="https://media.discordapp.net/attachments/1206214260238061650/1214976949538005012/dog.jpg?ex=65fb1275&is=65e89d75&hm=7155d37b5991cb8ee92af53cb2eae49faf71c4caa68c66f8ed3b1d1c37f288fc&=&format=webp"
+                alt="Cat Profile">
+
+            <div class="fbinfo">
+                <b>Peck</b>
+                <p>3 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+        <div class="pfp">
+            <img src="https://media.discordapp.net/attachments/1206214260238061650/1214976928310755369/cat2.jpg?ex=65fb1270&is=65e89d70&hm=e19c4e6581ea78b64009f2a97c873b6a63752964bbedb0b688f60d2cfd412e7e&=&format=webp"
+                alt="Cat Profile">
+
+            <div class="fbinfo">
+                <b>Pocky</b>
+                <p>4 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="google">
+        <img
+            src="https://lh3.googleusercontent.com/d_S5gxu_S1P6NR1gXeMthZeBzkrQMHdI5uvXrpn3nfJuXpCjlqhLQKH_hbOxTHxFhp5WugVOEcl4WDrv9rmKBDOMExhKU5KmmLFQVg">
+        <form id="sform">
+            <input id="search" type="text" placeholder="Search Google or type a URL">
+        </form>
+        <div class="gsearch">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
