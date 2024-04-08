@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 50px;
+}
+
+header {
+  background-color: rgba(76, 176, 80, 255);
+  color: white;
+}
+
+header h1 {
+  padding: 20px 0 0 20px;
+}
+
+header p {
+  padding: 0 0 20px 20px;
+  margin-top: -20px;
+}
+
+ul li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 5px;
+  position: relative;
+  left: -40px;
+  margin-bottom: 5px;
+  max-width: 200px;
+  border-radius: 3px;
+  background-color: rgba(241, 241, 240, 255);
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li:hover {
+  background-color: rgba(76, 176, 80, 255);
+}
+
+ul li:hover a {
+  color: white;
+}
+.main {
+  position: absolute;
+  left: 300px;
+  top: 170px;
+}
+
+.main h1 {
+  font-size: 40px;
+}
+
+.main p {
+  font-size: 18px;
+  max-width: 93%;
+}
+
+.side-bar {
+  position: absolute;
+  bottom: -20px;
+  background-color: rgba(51, 164, 232, 255);
+  padding: 20px 10px;
+  color: white;
+  max-width: 93%;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: -140px;
+  border: 1px solid rgba(222, 225, 224, 255);
+  text-align: center;
+  background-color: rgba(241, 241, 241, 255);
+  max-width: 93%;
+}

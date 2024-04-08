@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 5px;
+  background-color: rgba(209, 72, 56, 255);
+}
+
+header {
+  color: white;
+}
+
+header h1 {
+  padding: 10px;
+  font-size: 48px;
+}
+
+header p {
+  padding: 13px;
+  margin-top: -40px;
+  font-size: 24px;
+}
+
+.main {
+  position: relative;
+  left: 5px;
+  top: -275px;
+  background-color: white;
+  padding: 20px;
+  max-width: 96%;
+}
+
+.main h1 {
+  font-size: 40px;
+  color: rgba(209, 72, 56, 255);
+}
+
+.main p {
+  font-size: 18px;
+  max-width: 80%;
+}
+
+.main h2 {
+  color: rgba(209, 72, 56, 255);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+ul li {
+  list-style: none;
+  border: 1px solid rgba(215, 66, 61, 255);
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  max-width: 200px;
+  border-radius: 20px;
+  background-color: rgba(215, 66, 61, 255);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  left: 1000px;
+  top: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li:hover {
+  background-color: white;
+}
+
+ul li:hover a {
+  color: rgba(215, 66, 61, 255);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(215, 66, 61, 255);
+}
+
+.side-bar {
+  position: relative;
+  top: -275px;
+  left: 5px;
+  padding: 18px;
+  background-color: rgba(246, 218, 215, 255);
+  max-width: 96.3%;
+  color: rgba(209, 72, 56, 255);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -275px;
+  width: 95%;
+  left: 30px;
+}
