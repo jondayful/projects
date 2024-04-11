@@ -1,6 +1,6 @@
 //Part 1
 
-let favoriteColor = Prompt("Please enter your favorite color: ");
+let favoriteColor = prompt("Please enter your favorite color: ");
 console.log(favoriteColor);
 
 //Part 2
